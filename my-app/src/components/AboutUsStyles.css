@@ -1,0 +1,17 @@
+.abt-container{
+    margin: 4rem 6rem;
+    text-align: start;
+}
+.abt-container h1{
+    padding-bottom: 1rem;
+}
+.abt-container p{
+    padding-bottom: 2rem;
+}
+
+@media screen and (max-width:850px) {
+    .abt-container{
+        margin: 4rem 2rem;
+    }
+    
+}

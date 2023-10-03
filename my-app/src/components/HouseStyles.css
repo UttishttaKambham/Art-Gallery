@@ -1,0 +1,86 @@
+.house{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.House-abt{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+.House-abt h1{
+    padding-top: 4rem !important;
+    background: #fff !important;
+    -webkit-background-clip: text !important;
+    background-clip: text ;
+    -webkit-text-fill-color: transparent !important;
+
+}
+.House-con{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.House-con h1{
+    padding-top: 4rem !important;
+    background: #fff !important;
+    -webkit-background-clip: text !important;
+    background-clip: text ;
+    -webkit-text-fill-color: transparent !important;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Housetxt{
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+.Housetxt h1{
+    font-size: 3rem;
+    font-weight: 800;
+    background: blanchedalmond;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Housetxt p{
+    font-size: 1.8rem;
+    font-family: Segoe script;
+    color: blanchedalmond;
+    margin-left: 25%;
+    padding: 0.5rem 0 2rem 0;
+}
+.Housetxt .show{
+    text-decoration: none;
+    background: #fff;
+    padding: 1rem 1rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: black;
+}
+.Housetxt .hide{
+    display:none;
+}
+@media screen and (max-width: 555px){
+    .Housetxt h1{
+        padding: 10px 20px;
+    }
+    .Housetxt p{
+        font-size: 1.1rem;
+        padding: 0 0 2rem 0;
+    }
+    .Housetxt .show{
+        padding: 0.5rem 1.1rem;
+        border-radius: 6px;
+        font-size: 1rem;
+    }
+}
